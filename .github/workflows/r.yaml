@@ -30,12 +30,15 @@ jobs:
 
       - name: Install devtools
         run: |
-           Rscript -e "install.packages('devtools')"
+          Rscript -e "install.packages('pkgdown')"
+          Rscript -e "install.packages('devtools')"
 
-
+      - name: install dependencies from github
+        run: |
+          Rscript -e "devtools::install_github("LabAsim/lavaanPlot", force = T)"
       - name: Install test dependencies
         run: |
           Rscript -e "install.packages('testthat')"
       - name: Run tests
         run: |
-          Rscript -e "library(testthat); test_dir('tests')"
+          Rscript -e "library(testthat);library(testthat);library(lavaan);library(lavaanPlot); test_dir('tests')"
