@@ -25,15 +25,15 @@ jobs:
         run: |
           sudo apt-get update
 
-      # - name: a
-      #   run: |
-      #     sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
-      # - name: b
-      #   run: |
-      #     sudo apt-get install libcurl4-openssl-dev libssl-dev libgit2-dev
-      # - name: c
-      #   run: |
-      #     sudo apt install build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
+      - name: a
+        run: |
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+      - name: b
+        run: |
+          sudo apt-get install libcurl4-openssl-dev libssl-dev libgit2-dev
+      - name: c
+        run: |
+          sudo apt install build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
       # - name: d
       #   run: |
       #     sudo apt-get install libbz2-dev liblzma-dev
