@@ -13,7 +13,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -55,7 +56,7 @@ jobs:
         #Rscript -e "devtools::install_github("LabAsim/lavaanPlot", force = T)"
       - name: Install test dependencies
         run: |
-          Rscript -e "install.packages('testthat')"
+          Rscript -e "install.packages(c('testthat', 'lavaan'))"
       - name: Run tests
         run: |
-          Rscript -e "library(testthat);library(testthat);library(lavaan);library(lavaanPlot); test_dir('tests')"
+          Rscript -e "library(testthat);library(lavaan);library(lavaanPlot); test_dir('tests')"
