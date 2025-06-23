@@ -30,7 +30,7 @@ jobs:
 
       - name: Install devtools
         run: |
-          install.packages("devtools")
+           Rscript -e "install.packages('devtools')"
 
 
       - name: Install test dependencies
