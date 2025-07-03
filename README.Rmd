@@ -19,4 +19,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 [![Codecov test coverage](https://codecov.io/gh/LabAsim/test_r/graph/badge.svg)](https://app.codecov.io/gh/LabAsim/test_r)
 
+
+<a href="https://codecov.io/github/LabAsim/test_r" > 
+ <img src="https://codecov.io/github/LabAsim/test_r/graph/badge.svg?token=FY0FI896JW"/> 
+</a>
+
 <!-- badges: end -->
