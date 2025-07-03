@@ -1,7 +1,11 @@
 ---
-title: "README"
-output: html_document
+output: github_document
+always_allow_html: true
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 <!-- badges: start -->
 [![R CMD Check](https://github.com/LabAsim/test/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/LabAsim/test/actions/workflows/R-CMD-check.yaml)
