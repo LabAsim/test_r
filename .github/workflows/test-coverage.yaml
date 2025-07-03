@@ -27,12 +27,16 @@ jobs:
           extra-packages: any::covr
           needs: coverage
 
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          needs: coverage
+
       - name: Test coverage
         run: |
           covr::codecov(
             quiet = FALSE,
             clean = FALSE,
-            install_path = file.path(normalizePath(Sys.getenv("RUNNER_TEMP"), winslash = "/"), "package")
+            install_path = file.path(Sys.getenv("RUNNER_TEMP"), "package")
           )
         shell: Rscript {0}
 
