@@ -15,4 +15,10 @@ coverage](https://codecov.io/gh/labasim/test_r/branch/master/graph/badge.svg)](h
 [![Codecov test
 coverage](https://codecov.io/gh/LabAsim/test_r/graph/badge.svg)](https://app.codecov.io/gh/LabAsim/test_r)
 
+[![codecov](https://codecov.io/github/LabAsim/test_r/branch/master/graph/badge.svg?token=FY0FI896JW)](https://codecov.io/github/LabAsim/test_r)
+
+<a href="https://codecov.io/github/LabAsim/test_r" >
+<img src="https://codecov.io/github/LabAsim/test_r/graph/badge.svg?token=FY0FI896JW"/>
+</a>
+
 <!-- badges: end -->
