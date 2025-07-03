@@ -5,5 +5,14 @@
 Check](https://github.com/LabAsim/test/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/LabAsim/test/actions/workflows/R-CMD-check.yaml)
 
 [![Test
-coverage](https://github.com/LabAsim/test/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/LabAsim/test/actions/workflows/test-coverage.yaml)
+coverage](https://github.com/LabAsim/test_r/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/LabAsim/test_r/actions/workflows/test-coverage.yaml)
+
+[![Codecov test
+coverage](https://codecov.io/gh/labasim/test_r/branch/master/graph/badge.svg)](https://app.codecov.io/labasim/test_r/covr?branch=master)
+
+[![codecov](https://codecov.io/github/LabAsim/test_r/graph/badge.svg?token=FY0FI896JW)](https://codecov.io/github/LabAsim/test_r)
+
+[![Codecov test
+coverage](https://codecov.io/gh/LabAsim/test_r/graph/badge.svg)](https://app.codecov.io/gh/LabAsim/test_r)
+
 <!-- badges: end -->
