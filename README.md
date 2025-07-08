@@ -21,4 +21,6 @@ coverage](https://codecov.io/gh/LabAsim/test_r/graph/badge.svg)](https://app.cod
 <img src="https://codecov.io/github/LabAsim/test_r/graph/badge.svg?token=FY0FI896JW"/>
 </a>
 
+[![Last-commit](https://img.shields.io/github/last-commit/LabAsim/test_r)](https://github.com/LabAsim/test_r/commits/main)
+
 <!-- badges: end -->
